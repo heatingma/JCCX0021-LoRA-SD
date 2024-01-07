@@ -1,6 +1,6 @@
 ## Finetuning diffusion model with LoRA
 
-### 一、 File Description
+### 1、 File Description
 - `datasets`: This directory is used to store datasets, including `DonaldTrump80`、 `lyf30-512-512` 、`sjl50-512-512`.
 - `ddpm`: Code for Denoising Diffusion Probabilistic Model
 - `dreambooth`: Code for Dreambooth Model
@@ -10,7 +10,7 @@
 - `env_linux.yml`: Installation environment on Linux platform.
 - `env_windows.yml`: Installation environment on Windows platform.
 
-### 二、Preparation
+### 2、Preparation
 
 #### 2.1 Create Environment
 ```bash
@@ -35,7 +35,7 @@ python text2img/lora-finetune/lyf/download.py
 python text2img/lora-finetune/Scarlett/download.py
 ```
 
-### 三、Train and Generate
+### 3、Train and Generate
 #### 3.1 Train Text2img Model
 ```bash
 bash scripts/train_text2img.sh
@@ -45,7 +45,7 @@ bash scripts/train_text2img.sh
 bash scripts/generate_text2img.sh
 ```
 
-### 四、Display
+### 4、Display
 
 #### 4.1 DT
 
