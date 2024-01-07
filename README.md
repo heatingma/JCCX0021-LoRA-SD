@@ -1,6 +1,7 @@
 ## Finetuning diffusion model with LoRA
 
 ### 1、 File Description
+- `controlnet`: Code for ControlNet Model
 - `datasets`: This directory is used to store datasets, including `DonaldTrump80`、 `lyf30-512-512` 、`sjl50-512-512`.
 - `ddpm`: Code for Denoising Diffusion Probabilistic Model
 - `dreambooth`: Code for Dreambooth Model
